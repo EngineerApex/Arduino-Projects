@@ -1,4 +1,5 @@
-//Analog volatage writing on the arduino serial monitor
+//Analog volatage writing on the arduino serial monitor using analogWrite method
+//In analogWrite method we specify the voltage of the leds to be supplied 
 
 const int redLED = 9, blueLED = 10;  //Red and Blue LED
 const int roffTime = 1000, ronTime = 1000;  //Red off and on time
@@ -50,6 +51,6 @@ void loop() {
     delay(bonTime);
     analogWrite(blueLED,0);
     delay(boffTime);
-  }  
+  }
   Serial.println(" ");
 }
