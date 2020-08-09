@@ -1,6 +1,6 @@
 //Switching on & off two leds with arduino programming
 //digitalWrite method
-//digitalWrite method we define the ON and OFF states of the LEDs by HIGH and LOW commands respectively
+//digitalWrite method we define the ON and OFF states of the LEDs by HIGH and LOW commands respectively.
 
 const int redLED = 9, blueLED = 10;  //Declaring and Initialising pins for both LEDs
 const int roffTime = 100, ronTime = 100;  //Off and On time for red LED in milliseconds
